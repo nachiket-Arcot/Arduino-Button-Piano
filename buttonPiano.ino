@@ -2,7 +2,7 @@
 int buttonPins[7] = {
   13, 12, 11, 10, 9, 8, 7
   };
-//Array for the Notes (Do-re-mi-fa-sol-la-si)
+//Array for the Notes (Do-re-mi-fa-sol-la-si) frequency (in Hz)
 int notes[7] = {
   262, 294, 330, 349, 392, 440, 494
   };
