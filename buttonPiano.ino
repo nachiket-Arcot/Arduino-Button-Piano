@@ -30,9 +30,7 @@ void loop() {
     switchstate = digitalRead(buttonPins[i]); //Checks if button is pressed or not
     //If button is pressed will play corresponding note
     if (switchstate == HIGH){
-      tone(buzzerPin, notes[i]);
-      delay(200);
-      noTone(buzzerPin);
+      tone(buzzerPin, notes[i], 200);
       Serial.println(switchstate);
     }
   }
